@@ -83,20 +83,31 @@ Make sure the bot has Administrator permissions.
 ### 🚀 Usage
 Command	Description
 !cleanserver	Ask for confirmation before deleting everything
+
 !confirmclean	Confirm and delete all channels and roles
+
 !kickall	Ask for confirmation before kicking all members
+
 !confirmkick	Kick all non-bot members
+
 !shutdown	Gracefully shuts down the bot
+
 
 After cleanup, a new channel #cleanup-log is automatically created,
 and a text file cleanup_log.txt is updated with all actions.
 
 📂 Project Structure
+
 📁 Discord-Server-Cleaner/
+
 │
+
 ├── main.py              # Bot source code
+
 ├── cleanup_log.txt      # Action logs (auto-generated)
+
 └── README.md            # Project documentation
+
 
 ### 🧠 Notes
 

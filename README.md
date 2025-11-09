@@ -125,7 +125,7 @@ All actions are logged with timestamps.
 💬 Built for Discord automation & server management.
 🛠️ Made with ❤️ using discord.py
 
-###⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This project is for educational and administrative purposes only.
 The creator and contributors are not responsible for any misuse or damage caused by this bot.

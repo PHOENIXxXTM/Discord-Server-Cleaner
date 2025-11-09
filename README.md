@@ -34,7 +34,7 @@ Install dependencies:
 ```bash
 pip install discord.py
 ```
-2️⃣ Enable Intents
+### 2️⃣ Enable Intents
 
 Go to your bot page on the Discord Developer Portal
 :
@@ -51,7 +51,7 @@ Enable:
 
 Click Save Changes
 
-3️⃣ Add Your Token
+### 3️⃣ Add Your Token
 
 In your main.py file:
 
@@ -71,7 +71,7 @@ import os
 load_dotenv()
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
-4️⃣ Invite Your Bot
+### 4️⃣ Invite Your Bot
 
 Use this OAuth2 URL (replace YOUR_CLIENT_ID):
 
@@ -80,7 +80,7 @@ https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scop
 
 Make sure the bot has Administrator permissions.
 
-🚀 Usage
+### 🚀 Usage
 Command	Description
 !cleanserver	Ask for confirmation before deleting everything
 !confirmclean	Confirm and delete all channels and roles
@@ -98,7 +98,7 @@ and a text file cleanup_log.txt is updated with all actions.
 ├── cleanup_log.txt      # Action logs (auto-generated)
 └── README.md            # Project documentation
 
-🧠 Notes
+### 🧠 Notes
 
 You must run !cleanserver before !confirmclean.
 
@@ -108,13 +108,13 @@ The bot cannot delete @everyone.
 
 All actions are logged with timestamps.
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 
-Phoenix
+### Phoenix
 💬 Built for Discord automation & server management.
 🛠️ Made with ❤️ using discord.py
 
-⚠️ Disclaimer
+###⚠️ Disclaimer
 
 This project is for educational and administrative purposes only.
 The creator and contributors are not responsible for any misuse or damage caused by this bot.
